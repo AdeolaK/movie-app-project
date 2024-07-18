@@ -1,5 +1,11 @@
+:root {
+  --primary-color: #ebabce;
+  --secondary-color: #f9f7fe;
+  --tertiary-color: #ffff;
+}
+
 body {
-  background: #f9f7fe;
+  background: var(--secondary-color);
 }
 
 h2 {
@@ -19,7 +25,7 @@ p {
 }
 
 .movie-app {
-  background: white;
+  background: var(--tertiary-color);
   max-width: 500px;
   margin: 60px auto;
   padding: 30px;
@@ -32,7 +38,7 @@ p {
 }
 
 .search-input {
-  background: #f9f7fe;
+  background: var(--secondary-color);
   border: none;
   font-size: 16px;
   padding: 12px 6px;
@@ -42,8 +48,8 @@ p {
 
 .search-button {
   font-size: 16px;
-  background: #ebabce;
-  color: white;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
   border: none;
   padding: 12px 14px;
   margin-left: 5px;
@@ -86,7 +92,7 @@ p {
 }
 
 .genre div {
-  border: 1px solid #ebabce;
+  border: 1px solid var(--primary-color);
   padding: 10px;
   margin: 0 10px;
   border-radius: 6px;
