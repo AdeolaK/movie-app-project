@@ -24,7 +24,7 @@ function getMovie(response) {
 
 function searchMovie(movie) {
   let apiKey = `9a71fe94`;
-  let apiUrl = `http://www.omdbapi.com/?t=${movie}&apikey=${apiKey}`;
+  let apiUrl = `https://www.omdbapi.com/?t=${movie}&apikey=${apiKey}`;
 
   axios.get(apiUrl).then(getMovie);
 }

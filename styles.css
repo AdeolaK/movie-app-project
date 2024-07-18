@@ -103,3 +103,32 @@ footer {
   font-size: 9px;
   padding-top: 25px;
 }
+
+@media (max-width: 900px) {
+  .search-input {
+    width: 70%;
+  }
+
+  #poster {
+    width: 35%;
+    margin: auto;
+  }
+
+  .movie-details {
+    padding: 12px;
+  }
+
+  .movie-app {
+    border-radius: 6px;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+}
