@@ -51,6 +51,10 @@ p {
   border-radius: 5px;
 }
 
+.poster {
+  width: 90%;
+}
+
 .rating {
   display: flex;
   justify-content: center;
